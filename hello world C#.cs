@@ -1,17 +1,15 @@
-
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
-
-namespace Rextester
+namespace HelloWorld
 {
-    public class Program
+    class Hello 
     {
-        public static void Main(string[] args)
+        static void Main() 
         {
-            //Your code goes here
-            Console.WriteLine("Hello, world!");
+            Console.WriteLine("Hello World!");
+
+            // Keep the console window open in debug mode.
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
     }
 }
